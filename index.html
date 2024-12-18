@@ -10,18 +10,16 @@
     	<meta name="og:description" content="Final project for WDD330, including canvas api, showing what you can do with it">
     	<meta property="og:title" content="Canvas site">
     	<meta property="og:type" content="website">
+		<link rel="icon" href="favicon.ico">
 		<link rel="stylesheet" href="styles/main.css" />
 		<noscript><link rel="stylesheet" href="styles/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 			<div id="wrapper">
-
 					<header id="header">
 						<div class="inner">
-
-							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="" alt="" /></span><span class="title">A</span>
+									<span class="symbol"><img src="images/color.png" alt="A pink and blue gradient square" /></span><span class="title">Canvas</span>
 								</a>
 
 							<!-- Nav -->
@@ -30,7 +28,6 @@
 										<li><a href="#menu">Menu</a></li>
 									</ul>
 								</nav>
-
 						</div>
 					</header>
 
@@ -39,7 +36,7 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">A</a></li>
+							<li><a href="thank.html">Thank You!</a></li>
 						</ul>
 					</nav>
 
@@ -47,27 +44,34 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>A</h1>
-								<p></p>
+								<h1>Welcome to the canvas showcase!</h1>
+								<p>This site displays some of the features of the canvas API.</p>
+								<p>The canvas API is used to draw and generate 2d graphics through JavaScript, such as lines, shapes, text, and other things. While this won't be a guide, hopefully it will interest you into seeing what else you can do with this simple and fun API!</p>
 							</header>
 							<section class="tiles">
 								<article class="style1">
 									<canvas id="canvasOne" width="300" height="150"></canvas>
+									<p>Starting off with a line, by using ctx.beginPath, ctx.moveTo, ctx.lineTo, and ctx.stroke, you can pick where to start and end your line before executing the function in JavaScript.</p>
 								</article>
 								<article class="style2">
 									<canvas id="canvasTwo" width="300" height="150"></canvas>
+									<p>The square utilizes the ctx.fillRect as well as the ctx.clearRect, giving the shape an opening. By using ctx.fillStyle, you can choose the color of your fill.</p>
 								</article>
 								<article class="style3">
 									<canvas id="canvasThree" width="300" height="150"></canvas>
+									<p>This one functions the same as the last, only we use ctx.fillRect in two different places, as well as changing the opacity of the fill.</p>
 								</article>
 								<article class="style4">
 									<canvas id="canvasFour" width="300" height="150"></canvas>
+									<p>Using grad.addColorStop can give us a lovely gradient, just remember to fill in a shape.</p>
 								</article>
 								<article class="style5">
 									<canvas id="canvasFive" width="300" height="150"></canvas>
+									<p>Not only can the canvas API create straight lines, it can use bezier curves with ctx.bevierCurveTo.</p>
 								</article>
 								<article class="style6">
 									<canvas id="canvasSix" width="300" height="150"></canvas>
+									<p>Showing off some of the things you can do with the canvas API makes us happy, we hope the creativity to be found will bring you the same joy!</p>
 									</a>
 								</article>
 							</section>
@@ -96,29 +100,14 @@
 									</ul>
 								</form>
 							</section>
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
 						</div>
 					</footer>
-
 			</div>
-
-		<!-- Javascript files -->
 			<script src="scripts/jquery.min.js"></script>
 			<script src="scripts//browser.min.js"></script>
 			<script src="scripts//breakpoints.min.js"></script>
 			<script src="scripts//util.js"></script>
 			<script src="scripts//main.js"></script>
 			<script src="scripts/canvas.js"></script>
-			
-
 	</body>
 </html>
