@@ -1,3 +1,4 @@
+
 function draw() {
     const canvasThank = document.getElementById("canvasThank");
     const ctx = canvasThank.getContext("2d");
